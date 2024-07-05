@@ -1,0 +1,117 @@
+h1{
+    text-align: center ;
+    font-size: 100px;
+    font-family: "courier", sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-top: 100px;
+    
+}
+.h2{
+    text-align:left;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 70px;
+}
+p{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 70px;
+   
+}
+/*h1{
+    background-image:url(ttps://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/da/c4/42/park-star-hotel.jpg?w=700&h=-1&s=1);
+    background-size:cover;
+    background-clip:text;
+    color:transparent;
+}*/
+/*h1{
+    display: inline-block;
+    overflow: hidden;
+    animation: type 4s linear 0s infinite alternate;
+
+}
+@keyframes example {
+    from {
+      width: 0;
+    }
+    to {
+      width: 150px;
+    }
+  }*/
+
+
+/*body{
+    background: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/499637232.jpg?k=566d03765bcfc1a68925947fe46270f3d19982e30edc201f86a90b619d3b9e56&o=&hp=1);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 683px;
+
+}*/
+body, html {
+    height: 100%;
+  }
+  
+  body {
+    /* The image used */
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/499637232.jpg?k=566d03765bcfc1a68925947fe46270f3d19982e30edc201f86a90b619d3b9e56&o=&hp=1);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.container{
+    display: flex;
+    justify-content:space-between;
+
+}
+ p{
+   color:black;
+   
+}
+.logo{
+   justify-content: flex-end;
+}
+body-bakground:url{
+    width:100%;
+}
+    .nav{
+        display:flex;
+        background-color: black;
+        width:100%;
+        justify-content: flex-start;
+        position:fixed;
+        padding-top: auto;
+        gap: 10px;
+    }
+    .nav a{
+        text-decoration: none;
+        color:white;
+        background-color: black;
+        width:100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        transition: color 0.5s ease-in-out;
+        font-size: 15px;
+    }
+    a:hover{
+    background-color:white;
+    color:black;
+    border: 2px solid rgb(56, 6, 56);
+    
+    }
+    footer{
+        width:100px;
+        background-color: black;
+        color: aliceblue;
+        border: 2px solid purple;
+
+
+    }
+
+    

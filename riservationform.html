@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>riservationform</title>
+        <link rel="stylesheet" href="riservationform.css" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial=scale=1.0">
+        
+    </head>
+    <body>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="images.html">Images</a>
+            <a href="riservationform.html">Riservation form</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="location.html">Location</a>
+        </div>
+        
+
+        <main>
+        <form id="form">
+                
+            <div class="container">
+            <form action="confirmation.html" method="post">
+            <h1> Book Now</h1>
+     <div>
+        
+        <input id="name-input" type="text" name="fullname" required="10" placeholder="FULLNAME"/><br>
+    </div>
+
+    <div>
+        
+        <input id="email-input" type="email" name="email" placeholder="EMAIL"/><br>
+    </div>
+
+    
+    <div>
+        
+        <input id="card-input" type="number" name="card-number" placeholder="CARDNUMBER"/><br>
+    </div>
+
+    <div> 
+       
+        <input id="country-input" type="text" name="country-name" placeholder="COUNTRY NAME"/><br>
+
+        </div>
+
+        <div>
+            
+            <input id="phone-number-input" type="tel" name="phone-number" placeholder="PHONE NUMBER"/><br>
+         </div>
+    
+    <div>
+        <label>Which room do you want to book?</label><br>
+
+        <input id="single-room" type="radio" name="room" value="single-room">
+        <label class="inline-label" for="single-room" >Single Room</label>
+
+        <input id="twin-bed" type="radio" name="room" value="twin-room">
+        <label class="inline-label" for="twin-room">Twin Room</label>
+
+        <input id="junior-suite" type="radio" name="room" value="junior-suite">
+        <label class="inline-label" for="junior-suite">Junior Suite</label>
+
+        <input id="single-room-twin-bed" type="radio" name="room" value="single-room-twin-bed">
+        <label class="inline-label" for="single-room-twin-bed">Single Room Twin Bed</label>
+
+        <input id="double-rooms" type="radio" name="room" value="double-rooms">
+        <label class="inline-label" for="double-rooms">Double Rooms</label>
+
+        <input id="triple-room" type="radio" name="room" value="triple-room">
+        <label class="inline-label" for="triple-room"> Triple Room</label><br>
+        
+        <input id="EN-suite-double-room-double-bed" type="radio" name="room" value="EN-suite-double-room-double-bed">
+        <label class="inline-label" for="EN-suite-double-room-double-bed">EN-Suite Double Room(Double Bed)</label>
+
+    </div><br>
+    <div class="date">
+        <label for="on-which-date-are-you- planing-to-come-to-the-hotel?">On which date are you planing to come to the hotel?</label><br>
+          
+            <label for="date">Date</label>
+            <input id="date-input" type="date" name="date" min="1" max="30" placeholder="1 July"/>
+        </select>        
+    </div><br>
+    <div class="food">
+        <label for="do-you-want-to-have-food-in-this-htel's-resturant?">Do you want to have food in this hotel's resturant?</label><br>
+       
+        <input id="table-for-two" type="radio" name="table" value="table-for-two">
+        <label class="inline-label" for="table-for-two">Table For Two</label>
+        
+        <input id="table-for-four" type="radio" name="table" value="table-for-four">
+        <label class="inline-label" for="table-for-four">Table For Four</label>
+
+        <input id="family-lodge" type="radio" name="table" value="family-lodge" >
+        <label class="inline-label" for="family-lodge">Family Lodge</label>
+
+    </div><br>
+
+    <div class="date">
+        <label for="on-which-date-are-you-planing-to-riserve-the-table?">On which date are you planing to riserve the table?</label><br>
+        
+            <label for="date">Date:</label>
+            <input id="date-input" type="date" name="date" min="1" max="30" placeholder="1 July"/>
+        
+    </div><br>
+    <div>
+        <label>Whch facilities should your room have?</label><br>
+
+        <input id="sauna" type="checkbox" name="add-choice" value="sauna">
+        <label class="inline-label" for="sauna">Sauna</label>
+
+        <input id="jacuzzi" type="checkbox" name="add-choice" value="jacuzzi">
+        <label class="inline-label" for="jacuzzi">Jacuzzi</label>
+
+        <input id="kitchen" type="checkbox" name="kitchen" value="kitchen">
+        <label class="inline-label" for="kitchen">Kitchen</label>
+
+        <input id="beautiful-view-of-nature" type="checkbox" name="add-choice" value="beautiful-view-of-nature">
+        <label class="inline-label" for="beautiful-view-of-nature">Beautiful view of nature</label>
+    </div>
+
+    <div>
+        <label for="i">Comments</label>
+        <textarea id="i" name="info"></textarea>
+    </div>
+    <div class="button-div">
+        <button type="submit">Submit</button>
+    </div>
+</form>
+    </main>
+</div>
+    </body>
+    <div class="footer">
+        <footer>
+            <P>WELCOME<br> TO<br> PARK STAR HOTEL</P>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP9RAYt1U_HTLk70Abx83j2w2jLiwDVV3n7g&s">
+    
+            </footer>
+        </div>
+    
+
+</html>

@@ -1,0 +1,140 @@
+
+.nav{
+    display:flex;
+    background-color: lightcoral;
+    width:100%;
+    justify-content: center;
+    position:fixed;
+    padding-top: auto;
+    gap: 30px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    background-color: blackk;
+    width:100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: color 0.5s ease-in-out;
+}
+a:hover{
+background-color:white;
+color:black;
+border: 2px solid rgb(56, 6, 56);
+}
+
+
+body {
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL4xKeFmxuTjV8LH9O7o-SymqxBINn49FCWw&s);
+    
+}
+ .row{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;   
+    gap:  20px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    
+}
+img{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    /*width: 300px;
+    max-width: 100%;
+    height: auto;*/
+    object-fit: cover;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+div .gallery{
+    border: 1px solid #ccc;
+    gap: 30px;
+    justify-content: space-between;
+}
+div .gallery:hover{
+    border: 1px solid #777;
+}
+div .gallery img{
+    width: 100%;
+    height: 300px;
+    gap: 20px;
+}
+div .desc{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    height: 60px;
+}
+*{
+    box-sizing: border-box;
+}
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and(max-width: 700px){
+    .esponsive{
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .responsive{
+        width:100%;
+    }
+}
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+} 
+/*.zoom-wrapper{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+.zoom-wrapper img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+.zoom-wrapper:hover img{
+    transform: scale(1.5);
+}*/
+footer{
+    width:100%;
+    background-color: white;
+    border: 2px solidpink;
+    text-align: center;
+    margin-top: 150px;
+    padding: auto;
+    /position: absolute;
+    height: 200px;
+    font-size: 25px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    flex-direction: row;
+   
+
+}
+.footer img{
+    justify-content: flex-end;
+    margin-left: 350px;
+}
+.footer p{
+    margin-left: 100px;
+    font-size: 30px;font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+
